@@ -1,0 +1,14 @@
+
+#entregable .col-lg-4 {
+   margin: 0px;
+    padding: 25px;
+}
+
+#entregable img {
+    width: 100px;
+    height: 250px;
+}
+
+#entregable img: hover {
+    border: 5px;
+}
