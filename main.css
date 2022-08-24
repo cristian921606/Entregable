@@ -1,14 +1,37 @@
+@media  screen and (max-width: 480px) {
+    #responsive{
+        display: none;
+    }
 
-#entregable .col-lg-4 {
-   margin: 0px;
+}
+
+@media screen and (max-width: 768px){
+    #Entregable img:hover{
+        border: 10px solid red;
+    }
+    
+
+}
+
+#Entregable {
+    overflow-y:scroll ;
+    overflow-x:scroll;
+}
+#Entregable .col-lg-4 {
+    margin: 0px;
     padding: 25px;
 }
 
-#entregable img {
-    width: 100px;
+#Entregable img {
+    width: 350px;
     height: 250px;
 }
 
-#entregable img: hover {
-    border: 5px;
+#Entregable img:hover {
+    border: 5px solid black;
+}
+
+#Entregable {
+    color: black;
+    border: 1px dashed pink
 }
